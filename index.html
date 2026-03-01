@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzair Abdullah | Backend, Frontend, Machine Learning and Cloud Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        dark: '#0a0a0a',
+                        card: '#171717',
+                        accent: '#3b82f6',
+                        text: '#e5e5e5',
+                        muted: '#a3a3a3'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar {width: 8px;}
+        ::-webkit-scrollbar-track { background: #0a0a0a; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+    </style>
+</head>
+<body class="bg-dark text-text antialiased font-sans">
+    
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 ease-in-out border-b border-transparent py-6 bg-transparent">
+        <div class="max-w-7xl mx-auto px-8 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold tracking-tight hover:scale-105 transition-transform duration-300">
+                Uzair<span class="text-accent">.dev</span>
+            </a>
+            <div class="space-x-10 text-base font-medium hidden md:block">
+                <a href="#about" class="inline-block hover:text-accent hover:scale-110 transition-all duration-300">About</a>
+                <a href="#projects" class="inline-block hover:text-accent hover:scale-110 transition-all duration-300">Projects</a>
+                <a href="#skills" class="inline-block hover:text-accent hover:scale-110 transition-all duration-300">Tech Stack</a>
+                <a href="#contact" class="inline-block px-6 py-2.5 border border-white/20 rounded-full hover:bg-white/10 hover:scale-105 hover:border-accent transition-all duration-300 shadow-lg shadow-black/20">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-accent/20 rounded-full blur-[128px] -z-10"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-[128px] -z-10"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <div class="inline-block px-4 py-1.5 mb-8 text-xs font-bold tracking-widest text-accent uppercase bg-accent/10 rounded-full border border-accent/20 animate-pulse">
+                Available for Hire
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-8 leading-tight tracking-tight">
+                Engineering <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-600">
+                    Scalable Systems
+                </span>
+            </h1>
+            <p class="text-xl md:text-2xl text-muted mb-12 max-w-2xl mx-auto leading-relaxed">
+                BSSE Student at ITU. I build cloud-native architectures, robust backends, and AI pipelines that solve real-world problems.
+            </p>
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+                <a href="#projects" class="group relative px-8 py-4 bg-accent text-white font-bold rounded-full overflow-hidden shadow-lg shadow-blue-500/25 hover:shadow-blue-500/50 transition-all duration-300 transform hover:-translate-y-1">
+                    <span class="relative z-10">View My Work &darr;</span>
+                    <div class="absolute inset-0 h-full w-full bg-white/20 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
+                </a>
+                <a href="https://github.com/uzairabdullah272004-svg" target="_blank" class="px-8 py-4 bg-white/5 border border-white/10 font-semibold rounded-full hover:bg-white/10 hover:border-white/30 transition-all duration-300 flex items-center gap-3">
+                    <i class="fab fa-github text-xl"></i> 
+                    <span>GitHub Profile</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="py-24 bg-black/50 relative">
+        <div class="max-w-6xl mx-auto px-6">
+            
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Featured Engineering</h2>
+                <div class="w-24 h-1 bg-accent mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group bg-card border border-white/5 rounded-2xl p-8 hover:border-accent/30 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-900/10">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="p-3 bg-blue-500/10 rounded-xl text-blue-400 group-hover:bg-blue-500/20 transition-colors">
+                            <i class="fas fa-cloud text-2xl"></i>
+                        </div>
+                        <a href="https://github.com/YOUR_USERNAME/hostel-management-aws" target="_blank" class="text-muted hover:text-white transition">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-accent transition-colors">Cloud-Native HMS</h3>
+                    <p class="text-muted mb-6 leading-relaxed h-20 overflow-hidden">
+                        A serverless container orchestration solution on AWS using Fargate, RDS, and S3. Solved legacy scaling issues with a stateless Multi-AZ architecture.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-blue-200">AWS Fargate</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-blue-200">Docker</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-blue-200">Flask</span>
+                    </div>
+                    <a href="https://github.com/YOUR_USERNAME/hostel-management-aws" target="_blank" class="inline-flex items-center text-sm font-semibold text-accent hover:underline gap-2">
+                        View Architecture <i class="fas fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+
+                <div class="group bg-card border border-white/5 rounded-2xl p-8 hover:border-accent/30 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-900/10">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="p-3 bg-purple-500/10 rounded-xl text-purple-400 group-hover:bg-purple-500/20 transition-colors">
+                            <i class="fas fa-brain text-2xl"></i>
+                        </div>
+                        <a href="https://github.com/YOUR_USERNAME/vgg16-tb-detection" target="_blank" class="text-muted hover:text-white transition">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-accent transition-colors">TB Detection AI</h3>
+                    <p class="text-muted mb-6 leading-relaxed h-20 overflow-hidden">
+                        High-performance medical image classifier using VGG16 Transfer Learning. Optimized with Mixed Precision (Float16) to achieve 98.5% accuracy at 12x smaller size.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-purple-200">TensorFlow</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-purple-200">CNN</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-purple-200">Python</span>
+                    </div>
+                    <a href="https://github.com/YOUR_USERNAME/vgg16-tb-detection" target="_blank" class="inline-flex items-center text-sm font-semibold text-accent hover:underline gap-2">
+                        View Research <i class="fas fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+
+                <div class="group bg-card border border-white/5 rounded-2xl p-8 hover:border-red-500/30 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-red-900/10 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-red-500/10 text-red-400 text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-bl-lg border-b border-l border-red-500/20">Case Study</div>
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="p-3 bg-red-500/10 rounded-xl text-red-400 group-hover:bg-red-500/20 transition-colors">
+                            <i class="fas fa-bug text-2xl"></i>
+                        </div>
+                        <a href="https://github.com/YOUR_USERNAME/opencv-omr-retrospective" target="_blank" class="text-muted hover:text-white transition">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-red-400 transition-colors">Modular OMR Grader</h3>
+                    <p class="text-muted mb-6 leading-relaxed h-20 overflow-hidden">
+                        An engineering retrospective on why Rule-Based Computer Vision failed against real-world data noise, leading to my transition to Deep Learning approaches.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-red-200">OpenCV</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-red-200">Algorithm Analysis</span>
+                    </div>
+                    <a href="https://github.com/YOUR_USERNAME/opencv-omr-retrospective" target="_blank" class="inline-flex items-center text-sm font-semibold text-red-400 hover:underline gap-2">
+                        Read Case Study <i class="fas fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+
+                <div class="group bg-card border border-white/5 rounded-2xl p-8 hover:border-green-500/30 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-green-900/10">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="p-3 bg-green-500/10 rounded-xl text-green-400 group-hover:bg-green-500/20 transition-colors">
+                            <i class="fas fa-database text-2xl"></i>
+                        </div>
+                        <a href="https://github.com/YOUR_USERNAME/blood-donation-system" target="_blank" class="text-muted hover:text-white transition">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-green-400 transition-colors">Blood Donation System</h3>
+                    <p class="text-muted mb-6 leading-relaxed h-20 overflow-hidden">
+                        Full-stack platform connecting donors and hospitals. Features real-time inventory tracking, normalized PostgreSQL schema, and role-based access control.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-green-200">Node.js</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-green-200">PostgreSQL</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-white/5 rounded-full border border-white/10 text-green-200">Express</span>
+                    </div>
+                    <a href="https://github.com/YOUR_USERNAME/blood-donation-system" target="_blank" class="inline-flex items-center text-sm font-semibold text-green-400 hover:underline gap-2">
+                        View Code <i class="fas fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-20 mb-10 border-t border-white/10"></div>
+            
+            <h3 class="text-2xl font-bold mb-8 text-center md:text-left">Other Noteworthy Work</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+                
+                <div class="bg-card border border-white/5 p-6 rounded-xl hover:bg-white/5 transition-colors group h-full flex flex-col">
+                    <div class="flex justify-between items-center mb-4">
+                        <i class="fas fa-gamepad text-3xl text-yellow-500 group-hover:scale-110 transition-transform"></i>
+                        <div class="flex gap-3">
+                            <a href="https://github.com/YOUR_USERNAME/cpp-snake-raylib" target="_blank" class="text-muted hover:text-white"><i class="fab fa-github"></i></a>
+                            <a href="#" class="text-muted hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-white group-hover:text-yellow-500 transition-colors">Snake Mania</h4>
+                    <p class="text-sm text-muted mb-6 flex-grow">
+                        Performance-optimized game loop in C++ using Raylib. Demonstrates manual memory management and collision logic.
+                    </p>
+                    <div class="flex gap-2 text-xs text-yellow-200/80 font-mono mt-auto">
+                        <span>C++</span>
+                        <span>Raylib</span>
+                        <span>OOP</span>
+                    </div>
+                </div>
+
+                <div class="bg-card border border-white/5 p-6 rounded-xl hover:bg-white/5 transition-colors group h-full flex flex-col">
+                    <div class="flex justify-between items-center mb-4">
+                        <i class="fas fa-book text-3xl text-blue-400 group-hover:scale-110 transition-transform"></i>
+                        <div class="flex gap-3">
+                            <a href="https://github.com/YOUR_USERNAME/cpp-library-system" target="_blank" class="text-muted hover:text-white"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-white group-hover:text-blue-400 transition-colors">Library System</h4>
+                    <p class="text-sm text-muted mb-6 flex-grow">
+                        Console-based management system using the Singleton Pattern. Features file handling (JSON) and role-based auth.
+                    </p>
+                    <div class="flex gap-2 text-xs text-blue-200/80 font-mono mt-auto">
+                        <span>C++</span>
+                        <span>Singleton</span>
+                        <span>JSON</span>
+                    </div>
+                </div>
+
+                <div class="bg-card border border-white/5 p-6 rounded-xl hover:bg-white/5 transition-colors group h-full flex flex-col">
+                    <div class="flex justify-between items-center mb-4">
+                        <i class="fas fa-shopping-bag text-3xl text-pink-400 group-hover:scale-110 transition-transform"></i>
+                        <div class="flex gap-3">
+                            <a href="https://github.com/YOUR_USERNAME/zoyorchid-frontend" target="_blank" class="text-muted hover:text-white"><i class="fab fa-github"></i></a>
+                            <a href="#" class="text-muted hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-white group-hover:text-pink-400 transition-colors">Zoyorchid Shop</h4>
+                    <p class="text-sm text-muted mb-6 flex-grow">
+                        Responsive e-commerce frontend with modern UI/UX principles. Features mobile-first navigation and product grids.
+                    </p>
+                    <div class="flex gap-2 text-xs text-pink-200/80 font-mono mt-auto">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Responsive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 relative overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12">Technical Arsenal</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="p-6 border border-white/5 rounded-xl bg-card hover:border-orange-500/50 transition-colors group">
+                    <i class="fab fa-aws text-4xl mb-4 text-white group-hover:text-orange-500 transition-colors"></i>
+                    <h3 class="font-semibold text-muted group-hover:text-white transition-colors">AWS Cloud</h3>
+                </div>
+                <div class="p-6 border border-white/5 rounded-xl bg-card hover:border-blue-500/50 transition-colors group">
+                    <i class="fab fa-docker text-4xl mb-4 text-blue-500 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-semibold text-muted group-hover:text-white transition-colors">Docker</h3>
+                </div>
+                <div class="p-6 border border-white/5 rounded-xl bg-card hover:border-green-500/50 transition-colors group">
+                    <i class="fas fa-server text-4xl mb-4 text-green-500 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-semibold text-muted group-hover:text-white transition-colors">Backend API</h3>
+                </div>
+                <div class="p-6 border border-white/5 rounded-xl bg-card hover:border-yellow-500/50 transition-colors group">
+                    <i class="fas fa-database text-4xl mb-4 text-yellow-500 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="font-semibold text-muted group-hover:text-white transition-colors">SQL / NoSQL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-12 border-t border-white/10 bg-black relative">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold mb-6">Let's Build Something Scalable</h2>
+            <div class="flex justify-center gap-8 mb-8">
+                <a href="mailto:YOUR_EMAIL@gmail.com" class="text-3xl text-muted hover:text-red-500 hover:-translate-y-1 transition-all">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" class="text-3xl text-muted hover:text-blue-500 hover:-translate-y-1 transition-all">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/YOUR_GITHUB" target="_blank" class="text-3xl text-muted hover:text-white hover:-translate-y-1 transition-all">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p class="text-sm text-muted">&copy; 2026 Uzair Abdullah. Built with <span class="text-red-500">❤</span> & Tailwind.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('py-6', 'bg-transparent', 'border-transparent');
+                navbar.classList.add('py-3', 'bg-dark/90', 'backdrop-blur-md', 'border-white/10', 'shadow-lg');
+            } else {
+                navbar.classList.add('py-6', 'bg-transparent', 'border-transparent');
+                navbar.classList.remove('py-3', 'bg-dark/90', 'backdrop-blur-md', 'border-white/10', 'shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
